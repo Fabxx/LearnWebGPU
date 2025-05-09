@@ -1,8 +1,8 @@
-Hello WebGPU <span class="bullet">🟢</span>
+Ciao WebGPU <span class="bullet">🟢</span>
 ============
 
 ```{lit-setup}
-:tangle-root: 001 - Hello WebGPU - Next
+:tangle-root: 001 - Ciao WebGPU - Next
 :parent: 000 - Project setup - Next
 :fetch-files: ../../data/webgpu-distribution-v0.3.0-alpha.zip
 ```
@@ -185,11 +185,11 @@ Assicurati di includere `<webgpu/webgpu.h>` prima di usare qualsiasi funzione o 
 L'istanza è creata usando la funzione `wgpuCreateInstance`. Vedremo che tutte le funzioni di WebGPU pensate per **creare** un'entità prendono come argomento un **descrittore**. Questo descrittore è usato per specificare le opzioni riguardanti a come impostiamo questo oggetto.
 
 ```{lit} C++, Create WebGPU instance
-// We create a descriptor
+// Creiamo un descrittore
 WGPUInstanceDescriptor desc = {};
 desc.nextInChain = nullptr;
 
-// We create the instance using this descriptor
+// Creiamo l'istanza che usa il descrittore
 WGPUInstance instance = wgpuCreateInstance(&desc);
 ```
 

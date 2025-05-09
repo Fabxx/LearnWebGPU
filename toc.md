@@ -13,6 +13,7 @@ index
 fr/index
 ru/index
 zh/index
+it/index
 
 contributing/index
 ```
